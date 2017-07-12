@@ -5,4 +5,4 @@ Demo Project
 ==============
 See `HNBKitDemo.xcworkspace`
 
-<iframe height=600 width=338 src="./HNBKitDemo/snapshots/demo.gif">
+<iframe height=568 width=320 src="./HNBKitDemo/snapshots/demo.gif">
