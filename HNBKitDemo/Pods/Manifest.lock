@@ -1,0 +1,19 @@
+PODS:
+  - HNBKit (0.0.1)
+  - Masonry (1.0.2)
+
+DEPENDENCIES:
+  - HNBKit (from `../`)
+  - Masonry (= 1.0.2)
+
+EXTERNAL SOURCES:
+  HNBKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HNBKit: 114e92da5b110c0063a557ac52899033d72f9f58
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+
+PODFILE CHECKSUM: 825fd76320f152846d8f87030fe8a4e9b770d683
+
+COCOAPODS: 1.1.1

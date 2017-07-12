@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HNBCollectionViewFlowLayout.h"
 
 //! Project version number for HNBKit.
 FOUNDATION_EXPORT double HNBKitVersionNumber;
