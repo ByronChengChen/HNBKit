@@ -1,15 +1,21 @@
 PODS:
-  - HNBKit (0.0.2)
+  - BEMCheckBox (1.4.0)
   - Masonry (1.0.2)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.12)
 
 DEPENDENCIES:
-  - HNBKit (= 0.0.2)
+  - BEMCheckBox (= 1.4.0)
   - Masonry (= 1.0.2)
+  - MJExtension (= 3.0.13)
+  - MJRefresh (= 3.1.12)
 
 SPEC CHECKSUMS:
-  HNBKit: 3de41bbc6598fea04939dbe34ef24f32b886854b
+  BEMCheckBox: e18e4a148905b290bd03d98b767651c104f4eda3
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
 
-PODFILE CHECKSUM: 80f520936c4ba38c8f02d1d5d02e775d543e220c
+PODFILE CHECKSUM: 5e71dcc998703239c13070f5612dd316b53f844c
 
 COCOAPODS: 1.1.1

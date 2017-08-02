@@ -52,7 +52,6 @@ static CGFloat const InvalidlastY = (-10000);
             //已经换行
             if(lastY != currentY){
                 lastY = currentY;
-                NSLog(@"currentLineFirstFrame:%@",NSStringFromCGRect(attributes.frame));
                 currentX = [self getCurrentLineFirstXByCurrentY:currentY allLayoutAttributes:layoutAttributes];
                 attributes.frame = CGRectMake(currentX, originFrame.origin.y, originFrame.size.width, originFrame.size.height);
                 lastCellFrame = attributes.frame;

@@ -1,25 +1,27 @@
 {
-  "name": "HNBKit",
-  "version": "0.0.2",
-  "summary": "A kit for obect-c",
-  "homepage": "https://github.com/ByronChengChen/HNBKit",
+  "name": "MMPopupView",
+  "version": "1.7.2",
+  "summary": "Pop-up based view(e.g. AlertView SheetView), or you can easily customize for your own usage.",
+  "homepage": "https://github.com/adad184/MMPopupView",
   "license": {
-    "type": "MIT",
+    "type": "MIT License",
     "file": "LICENSE"
   },
   "authors": {
-    "chengkang": "chengkang_boy@163.com"
-  },
-  "platforms": {
-    "ios": "8.0"
+    "adad184": "adad184@gmail.com"
   },
   "source": {
-    "git": "https://github.com/ByronChengChen/HNBKit.git",
-    "tag": "0.0.2"
+    "git": "https://github.com/adad184/MMPopupView.git",
+    "tag": "1.7.2"
   },
-  "source_files": [
-    "HNBKit",
-    "HNBKit/**/*.{h,m}"
-  ],
-  "exclude_files": "Classes/Exclude"
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "Classes/*.{h,m}",
+  "requires_arc": true,
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
 }
