@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HNBKit.h"
 
 //引用到masonry,mjrefresh,mjextension
 
