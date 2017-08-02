@@ -28,10 +28,6 @@ static NSString *baseTableCellId = @"baseTableCell";
 
 @implementation HNBBaseTableViewController
 
-+ (void)load {
-    hnbRouterRegistUrlForViewcontroller(HNB_TestHNBBaseTable,self);
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setUp];

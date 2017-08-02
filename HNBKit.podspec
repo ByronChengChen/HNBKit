@@ -7,7 +7,8 @@ Pod::Spec.new do |s|
   s.author       = { "chengkang" => "chengkang_boy@163.com" }
   s.source       = { :git => "https://github.com/ByronChengChen/HNBKit.git", :tag => "0.0.3" }
   s.platform     = :ios, '8.0'
-  s.source_files  = "HNBKit", "HNBKit/**/*.{h,m}"
-  #s.dependency 'Masonry'
-  #s.dependency 'MJRefresh'
+  s.source_files  = "HNBKit", "HNBKit/*"
+  s.dependency 'Masonry', '1.0.2'
+  s.dependency 'MJRefresh', '3.1.12'
+  s.dependency 'MJExtension', '3.0.13'
 end
