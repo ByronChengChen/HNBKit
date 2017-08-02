@@ -7,6 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+
+#if __has_include(<HNBKit/HNBKit.h>)
+#import <HNBKit/HNBCollectionViewFlowLayout.h>
+#import <HNBKit/UIButton+HNBButton.h>
+#import <HNBKit/UIColor+HNBColor.h>
+#import <HNBKit/UIImage+HNBExtension.h>
+#import <HNBKit/UIResponder+Router.h>
+#import <HNBKit/UIView+Extension.h>
+#import <HNBKit/HNBBaseTableViewController.h>
+
+#else
 #import "HNBCollectionViewFlowLayout.h"
 #import "UIButton+HNBButton.h"
 #import "UIColor+HNBColor.h"
@@ -14,6 +25,10 @@
 #import "UIResponder+Router.h"
 #import "UIView+Extension.h"
 #import "HNBBaseTableViewController.h"
+
+#endif
+
+
 #import <MJRefresh/MJRefresh.h>
 #import <MJExtension/MJExtension.h>
 #import <Masonry/Masonry.h>
