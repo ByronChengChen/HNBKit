@@ -10,8 +10,6 @@
 		440338D01F207E36001E3C46 /* fireWork.mov in Resources */ = {isa = PBXBuildFile; fileRef = 440338CF1F207E36001E3C46 /* fireWork.mov */; };
 		440338D31F2080E3001E3C46 /* UIView+HNBAVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 440338D21F2080E3001E3C46 /* UIView+HNBAVPlayer.m */; };
 		440338D61F208792001E3C46 /* AppDelegate+HNBShowStartAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 440338D51F208792001E3C46 /* AppDelegate+HNBShowStartAnimation.m */; };
-		44098CF91F1CAC5100BDB9E7 /* NSDictionary+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 44098CF81F1CAC5100BDB9E7 /* NSDictionary+Extension.m */; };
-		440D146D1F185EE200A08D96 /* UIViewController+HNBURLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 440D146C1F185EE200A08D96 /* UIViewController+HNBURLRouter.m */; };
 		4417054F1F300D390058E4AF /* TestResponderAndImageExtensionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4417054E1F300D390058E4AF /* TestResponderAndImageExtensionViewController.m */; };
 		442FDFD21F2F1639007A1358 /* TestBEMCheckBoxController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442FDFD11F2F1639007A1358 /* TestBEMCheckBoxController.m */; };
 		442FDFD51F2F17CF007A1358 /* BookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 442FDFD41F2F17CF007A1358 /* BookCell.m */; };
@@ -29,8 +27,6 @@
 		4458D6F21F31616300446333 /* HNBCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4458D6EA1F31616300446333 /* HNBCollectionViewFlowLayout.m */; };
 		4458D6F31F31616300446333 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4458D6EC1F31616300446333 /* Info.plist */; };
 		446277011F21F30300680AF8 /* HNBFlowLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 446277001F21F30300680AF8 /* HNBFlowLayoutViewController.m */; };
-		446CBC081F17841700767D49 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 446CBC071F17841700767D49 /* Info.plist */; };
-		446CBC0B1F1784D700767D49 /* HNBBaseURLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CBC0A1F1784D700767D49 /* HNBBaseURLRouter.m */; };
 		44B4168F1F1F44F5004373B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B4166C1F1F44F5004373B3 /* AppDelegate.m */; };
 		44B416911F1F44F5004373B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B4166F1F1F44F5004373B3 /* LaunchScreen.storyboard */; };
 		44B416921F1F44F5004373B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B416711F1F44F5004373B3 /* Main.storyboard */; };
@@ -59,11 +55,7 @@
 		440338D21F2080E3001E3C46 /* UIView+HNBAVPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HNBAVPlayer.m"; sourceTree = "<group>"; };
 		440338D41F208792001E3C46 /* AppDelegate+HNBShowStartAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+HNBShowStartAnimation.h"; sourceTree = "<group>"; };
 		440338D51F208792001E3C46 /* AppDelegate+HNBShowStartAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+HNBShowStartAnimation.m"; sourceTree = "<group>"; };
-		44098CF71F1CAC5100BDB9E7 /* NSDictionary+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extension.h"; sourceTree = "<group>"; };
-		44098CF81F1CAC5100BDB9E7 /* NSDictionary+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extension.m"; sourceTree = "<group>"; };
 		440D14611F18525100A08D96 /* HNBKitDemoPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNBKitDemoPrefixHeader.pch; sourceTree = "<group>"; };
-		440D146B1F185EE200A08D96 /* UIViewController+HNBURLRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HNBURLRouter.h"; sourceTree = "<group>"; };
-		440D146C1F185EE200A08D96 /* UIViewController+HNBURLRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HNBURLRouter.m"; sourceTree = "<group>"; };
 		4417054D1F300D390058E4AF /* TestResponderAndImageExtensionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestResponderAndImageExtensionViewController.h; sourceTree = "<group>"; };
 		4417054E1F300D390058E4AF /* TestResponderAndImageExtensionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestResponderAndImageExtensionViewController.m; sourceTree = "<group>"; };
 		442FDFD01F2F1639007A1358 /* TestBEMCheckBoxController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestBEMCheckBoxController.h; sourceTree = "<group>"; };
@@ -98,10 +90,6 @@
 		4458D6EC1F31616300446333 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		446276FF1F21F30300680AF8 /* HNBFlowLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNBFlowLayoutViewController.h; sourceTree = "<group>"; };
 		446277001F21F30300680AF8 /* HNBFlowLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNBFlowLayoutViewController.m; sourceTree = "<group>"; };
-		446CBC061F17841700767D49 /* HNBURLRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNBURLRouter.h; sourceTree = "<group>"; };
-		446CBC071F17841700767D49 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		446CBC091F1784D700767D49 /* HNBBaseURLRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNBBaseURLRouter.h; sourceTree = "<group>"; };
-		446CBC0A1F1784D700767D49 /* HNBBaseURLRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNBBaseURLRouter.m; sourceTree = "<group>"; };
 		44B4166B1F1F44F5004373B3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		44B4166C1F1F44F5004373B3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		44B416701F1F44F5004373B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -176,7 +164,6 @@
 		4449B1711F15F72B009C0611 = {
 			isa = PBXGroup;
 			children = (
-				446CBC051F17841700767D49 /* HNBURLRouter */,
 				4449B17C1F15F72B009C0611 /* HNBKitDemo */,
 				4449B17B1F15F72B009C0611 /* Products */,
 				11DA573B99181CBA6DCEF2E9 /* Pods */,
@@ -256,22 +243,6 @@
 				4458D6EA1F31616300446333 /* HNBCollectionViewFlowLayout.m */,
 			);
 			path = HNBCollectionViewFlowLayout;
-			sourceTree = "<group>";
-		};
-		446CBC051F17841700767D49 /* HNBURLRouter */ = {
-			isa = PBXGroup;
-			children = (
-				446CBC061F17841700767D49 /* HNBURLRouter.h */,
-				446CBC071F17841700767D49 /* Info.plist */,
-				446CBC091F1784D700767D49 /* HNBBaseURLRouter.h */,
-				446CBC0A1F1784D700767D49 /* HNBBaseURLRouter.m */,
-				440D146B1F185EE200A08D96 /* UIViewController+HNBURLRouter.h */,
-				440D146C1F185EE200A08D96 /* UIViewController+HNBURLRouter.m */,
-				44098CF71F1CAC5100BDB9E7 /* NSDictionary+Extension.h */,
-				44098CF81F1CAC5100BDB9E7 /* NSDictionary+Extension.m */,
-			);
-			name = HNBURLRouter;
-			path = ../../HNBURLRouter/HNBURLRouter/HNBURLRouter;
 			sourceTree = "<group>";
 		};
 		44B416691F1F44F5004373B3 /* 3rd */ = {
@@ -617,7 +588,6 @@
 				44C03A821F20A0B90087599B /* introduce_2.mp4 in Resources */,
 				44B416921F1F44F5004373B3 /* Main.storyboard in Resources */,
 				440338D01F207E36001E3C46 /* fireWork.mov in Resources */,
-				446CBC081F17841700767D49 /* Info.plist in Resources */,
 				4449B18A1F15F72B009C0611 /* Assets.xcassets in Resources */,
 				44B416911F1F44F5004373B3 /* LaunchScreen.storyboard in Resources */,
 				4458D6F31F31616300446333 /* Info.plist in Resources */,
@@ -682,9 +652,7 @@
 				446277011F21F30300680AF8 /* HNBFlowLayoutViewController.m in Sources */,
 				442FDFD21F2F1639007A1358 /* TestBEMCheckBoxController.m in Sources */,
 				44C364401F1F50CA00B6AAB5 /* HNBEmitterAnimationView.m in Sources */,
-				446CBC0B1F1784D700767D49 /* HNBBaseURLRouter.m in Sources */,
 				442FDFE81F2F34E7007A1358 /* HNBHomeViewController.m in Sources */,
-				440D146D1F185EE200A08D96 /* UIViewController+HNBURLRouter.m in Sources */,
 				44C03A951F20C07A0087599B /* MainTabBarController.m in Sources */,
 				44C03AA11F20C11B0087599B /* MediaViewController.m in Sources */,
 				442FDFD51F2F17CF007A1358 /* BookCell.m in Sources */,
@@ -707,7 +675,6 @@
 				4458D6EE1F31616300446333 /* UIColor+HNBColor.m in Sources */,
 				44B416961F1F44F5004373B3 /* SimpleCollectionFooterView.m in Sources */,
 				44C03A931F20C07A0087599B /* BaseNavigationController.m in Sources */,
-				44098CF91F1CAC5100BDB9E7 /* NSDictionary+Extension.m in Sources */,
 				44B4168F1F1F44F5004373B3 /* AppDelegate.m in Sources */,
 				44C03A9E1F20C10B0087599B /* ChatViewController.m in Sources */,
 				443D93F71F31CB3700654A22 /* HNBBaseTableViewController.m in Sources */,
