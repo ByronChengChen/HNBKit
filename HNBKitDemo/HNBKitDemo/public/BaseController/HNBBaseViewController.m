@@ -24,6 +24,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    if(self.needHideNavBar){
+        [self.navigationController setNavigationBarHidden:YES];
+    }else{
+        [self.navigationController setNavigationBarHidden:NO];
+    }
+}
+
 /*
 #pragma mark - Navigation
 

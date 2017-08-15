@@ -11,12 +11,7 @@
 
 @implementation HNBMediator
 
-+ (__kindof UIViewController *)viewControllerForRemoteCallUrl:(NSString *)url{
-    UIViewController *vc = [HNBBaseURLRouter viewControllerForUrl:url];
-    return vc;
-}
-
-//TODO: chengk urlRouter 2 拿到vc并且赋参到url，如有需要，可以指定vc的打开方式
+//拿到vc并且赋参到url，如有需要，可以指定vc的打开方式
 + (__kindof UIViewController *)flowLayoutViewControllerSimple{
     UIViewController *vc = [HNBBaseURLRouter viewControllerForUrl:HNB_flowLayoutViewController];
     return vc;

@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface HNBBaseViewController : UIViewController
-
+@property (nonatomic, assign) BOOL needHideNavBar;
 @end

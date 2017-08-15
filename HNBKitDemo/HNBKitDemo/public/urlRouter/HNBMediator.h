@@ -11,13 +11,6 @@
 
 @interface HNBMediator : NSObject
 
-//TODO: chengk HNBURLRouter 远程调用放到sdk里面
-
-/**
- *  远程调用 所有的参数都在url里面，但是远程调用有个缺陷，不支持非常规参数(对象类型)，对json和字典类型的支持不大友好
- */
-+ (__kindof UIViewController *)viewControllerForRemoteCallUrl:(NSString *)url;
-
 /**
  *  本地调用
  */

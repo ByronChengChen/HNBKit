@@ -35,7 +35,6 @@ static NSString *g_simpleFooter = @"g_simpleFooter";
 @implementation HNBFlowLayoutViewController
 
 + (void)load {
-    //TODO: chengk urlRouter 1 注册vc
     hnbRouterRegistUrlForViewcontroller(HNB_flowLayoutViewController,self);
 }
 

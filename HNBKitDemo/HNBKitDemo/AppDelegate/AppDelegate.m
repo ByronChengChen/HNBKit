@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "AppDelegate+HNBShowStartAnimation.h"
 #import "UIWindow+HNBSwitchRootConroller.h"
+#import "MainTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -58,10 +59,10 @@
 
 - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *,id> *)options {
     UIViewController *vc = [HNBBaseURLRouter viewControllerForRemoteUrl:url.absoluteString];
-    UINavigationController *navVc = (UINavigationController *)self.window.rootViewController;
-    UIViewController *originVc = navVc.viewControllers[0];
+    MainTabBarController *mainTabBarController = (MainTabBarController *)self.window.rootViewController;
+    UINavigationController *originVc = mainTabBarController.selectedViewController;
     if(vc){
-        [originVc presentViewController:vc animated:YES completion:nil];
+        [originVc pushViewController:vc animated:YES];
     }
     return YES;
 }

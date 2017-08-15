@@ -17,8 +17,9 @@
     UIView *animationiView = [[UIView alloc] initWithHNBAVPlayerWithFadeTime:AnimationViewFadeTime];
     animationiView.frame = [[UIScreen mainScreen] bounds];
     animationiView.tag = AnimationTag;
-    [[UIApplication sharedApplication].keyWindow addSubview:animationiView];
-    [self removeAnimationView];
+    //TODO: chengk 启动动画
+//    [[UIApplication sharedApplication].keyWindow addSubview:animationiView];
+//    [self removeAnimationView];
 }
 
 - (void)removeAnimationView {

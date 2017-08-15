@@ -46,6 +46,8 @@
 		44C364401F1F50CA00B6AAB5 /* HNBEmitterAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C3643F1F1F50CA00B6AAB5 /* HNBEmitterAnimationView.m */; };
 		44FFB5281F2048C60074695D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FFB5261F2048C60074695D /* AVFoundation.framework */; };
 		44FFB5291F2048C60074695D /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FFB5271F2048C60074695D /* AVKit.framework */; };
+		6E7673961F42A6EF003DA08E /* RouteConfigBtnActionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7673941F42A6EF003DA08E /* RouteConfigBtnActionController.m */; };
+		6E7673971F42A6EF003DA08E /* RouteConfigBtnActionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E7673951F42A6EF003DA08E /* RouteConfigBtnActionController.xib */; };
 		9CA99D9008B05EAB7024BC2F /* libPods-HNBKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B769779025D1FA72CF42B24B /* libPods-HNBKitDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -124,6 +126,9 @@
 		44C3643F1F1F50CA00B6AAB5 /* HNBEmitterAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNBEmitterAnimationView.m; sourceTree = "<group>"; };
 		44FFB5261F2048C60074695D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		44FFB5271F2048C60074695D /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		6E7673931F42A6EF003DA08E /* RouteConfigBtnActionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteConfigBtnActionController.h; sourceTree = "<group>"; };
+		6E7673941F42A6EF003DA08E /* RouteConfigBtnActionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteConfigBtnActionController.m; sourceTree = "<group>"; };
+		6E7673951F42A6EF003DA08E /* RouteConfigBtnActionController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RouteConfigBtnActionController.xib; sourceTree = "<group>"; };
 		805E0790B13C9167DE614A8C /* Pods-HNBKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HNBKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HNBKitDemo/Pods-HNBKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B07B281FFC293019FD23DB00 /* Pods-HNBKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HNBKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HNBKitDemo/Pods-HNBKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		B769779025D1FA72CF42B24B /* libPods-HNBKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HNBKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -337,6 +342,9 @@
 				442FDFE71F2F34E7007A1358 /* HNBHomeViewController.m */,
 				4417054D1F300D390058E4AF /* TestResponderAndImageExtensionViewController.h */,
 				4417054E1F300D390058E4AF /* TestResponderAndImageExtensionViewController.m */,
+				6E7673931F42A6EF003DA08E /* RouteConfigBtnActionController.h */,
+				6E7673941F42A6EF003DA08E /* RouteConfigBtnActionController.m */,
+				6E7673951F42A6EF003DA08E /* RouteConfigBtnActionController.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -587,6 +595,7 @@
 			files = (
 				44C03A821F20A0B90087599B /* introduce_2.mp4 in Resources */,
 				44B416921F1F44F5004373B3 /* Main.storyboard in Resources */,
+				6E7673971F42A6EF003DA08E /* RouteConfigBtnActionController.xib in Resources */,
 				440338D01F207E36001E3C46 /* fireWork.mov in Resources */,
 				4449B18A1F15F72B009C0611 /* Assets.xcassets in Resources */,
 				44B416911F1F44F5004373B3 /* LaunchScreen.storyboard in Resources */,
@@ -609,7 +618,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		9D362FE17E0AAC2329B7CCF0 /* [CP] Embed Pods Frameworks */ = {
@@ -661,6 +670,7 @@
 				4458D6F01F31616300446333 /* UIResponder+Router.m in Sources */,
 				44B416971F1F44F5004373B3 /* SimpleCollectionHeaderView.m in Sources */,
 				442FDFEE1F2F3B1A007A1358 /* HomeCell.m in Sources */,
+				6E7673961F42A6EF003DA08E /* RouteConfigBtnActionController.m in Sources */,
 				44C03A941F20C07A0087599B /* HNBBaseViewController.m in Sources */,
 				44C03AA41F20C1280087599B /* PersonCenterViewController.m in Sources */,
 				4449B17F1F15F72B009C0611 /* main.m in Sources */,

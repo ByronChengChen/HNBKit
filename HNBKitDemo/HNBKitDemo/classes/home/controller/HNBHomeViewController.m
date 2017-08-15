@@ -15,6 +15,7 @@ static NSString *const g_hasMoreKey = @"hasMoreKey";
 @interface HNBHomeViewController ()<UITableViewDelegate>
 @property (nonatomic, assign) NSInteger lastSelectedIndex;
 @property (nonatomic, assign) BOOL multiplyCheck;
+@property (nonatomic, assign) NSInteger sourceDataCount;
 @end
 
 @implementation HNBHomeViewController
@@ -32,15 +33,16 @@ static NSString *const g_hasMoreKey = @"hasMoreKey";
 }
 
 - (NSDictionary*)callApiGetResponse{
+    self.sourceDataCount = 3;
     if(self.currentPage == 0){
         self.lastSelectedIndex = -1;
     }
     NSMutableArray *responseArray = [NSMutableArray array];
     NSString *listName = g_listName;
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];
-    for (NSInteger i = 0; i<2 ; i++) {
+    for (NSInteger i = 0; i<self.sourceDataCount ; i++) {
         [responseArray addObject:[self getModelByIndex:i]];
-        dict[g_hasMoreKey] = i>=1? @(NO):@(YES);
+        dict[g_hasMoreKey] = i>=self.sourceDataCount-1? @(NO):@(YES);
     }
     dict[listName] = responseArray;
     return dict;
@@ -54,6 +56,9 @@ static NSString *const g_hasMoreKey = @"hasMoreKey";
             break;
         case 1:
             model.name = [NSString stringWithFormat:@"%ld: %@",index,HNB_TestResponderAndImageExtension];
+            break;
+        case 2:
+            model.name = [NSString stringWithFormat:@"%ld: %@",index,@"远程调用的方式实现按钮动态化"];
         default:
             break;
     }
@@ -80,6 +85,11 @@ static NSString *const g_hasMoreKey = @"hasMoreKey";
             break;
         case 1:{
             vc = [HNBBaseURLRouter viewControllerForUrl:HNB_TestResponderAndImageExtension];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 2:{
+            vc = [HNBBaseURLRouter viewControllerForUrl:HNB_TestRouteConfigBtn];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
