@@ -89,7 +89,7 @@ static NSString *const g_hasMoreKey = @"hasMoreKey";
         }
             break;
         case 2:{
-            vc = [HNBBaseURLRouter viewControllerForUrl:HNB_TestRouteConfigBtn];
+            vc = [HNBMediator testRouteConfigBtnVCForTitle:@"按钮动态化"];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;

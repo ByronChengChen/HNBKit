@@ -17,4 +17,9 @@
     return vc;
 }
 
++ (__kindof UIViewController *)testRouteConfigBtnVCForTitle:(NSString *)titleName{
+    UIViewController *vc = [HNBBaseURLRouter viewControllerForUrl:HNB_TestRouteConfigBtn withParams:@{@"vcTitle":titleName}];
+    return vc;
+}
+
 @end

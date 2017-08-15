@@ -16,5 +16,6 @@
  */
 + (__kindof UIViewController *)flowLayoutViewControllerSimple;
 
++ (__kindof UIViewController *)testRouteConfigBtnVCForTitle:(NSString *)titleName;
 
 @end
