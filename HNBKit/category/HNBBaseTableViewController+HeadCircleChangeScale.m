@@ -32,7 +32,7 @@
     self.circleView = circleView;
     self.titleViewLB = ({
         UILabel *titleViewLB = [UILabel new];
-        titleViewLB.frame = CGRectMake(0, 0, IPHONE_WIDTH, 20);
+        titleViewLB.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 20);
         titleViewLB.center = titleView.center;
         if(titleText && titleFont && titleFont){
             [titleViewLB setText:titleText textColor:titleColor font:titleFont backgroundColor:nil radius:0];
@@ -52,7 +52,6 @@
     CGFloat titleViewY = self.navigationItem.titleView.frame.origin.y;
     CGFloat titleImageLength = self.titleImageLength;
     CGFloat length = (1 - precent) * titleImageLength;
-    LogYellow(@"length%f",length);
     if(length <= titleImageLength * 0.2){
         length = 0;
         self.titleViewLB.hidden = NO;

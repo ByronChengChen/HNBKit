@@ -16,6 +16,7 @@
 #import <HNBKit/UIResponder+Router.h>
 #import <HNBKit/UIView+Extension.h>
 #import <HNBKit/HNBBaseTableViewController.h>
+#import <HNBKit/UILabel+HNB.h>
 
 #else
 #import "HNBCollectionViewFlowLayout.h"
@@ -25,6 +26,7 @@
 #import "UIResponder+Router.h"
 #import "UIView+Extension.h"
 #import "HNBBaseTableViewController.h"
+#import "UILabel+HNB.h"
 
 #endif
 

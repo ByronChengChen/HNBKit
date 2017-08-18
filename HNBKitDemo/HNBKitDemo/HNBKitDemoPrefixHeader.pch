@@ -18,7 +18,6 @@
 #import <MJRefresh.h>
 #import <MJExtension.h>
 #import "HNBKit.h"
-#import "UILabel+HNB.h"
 
 //打印颜色
 //xcodecolor
