@@ -18,6 +18,19 @@
 #import <MJRefresh.h>
 #import <MJExtension.h>
 #import "HNBKit.h"
+#import "UILabel+HNB.h"
+
+//打印颜色
+//xcodecolor
+#define XCODE_COLORS_ESCAPE @"\033["
+#define XCODE_COLORS_RESET_FG  XCODE_COLORS_ESCAPE @"fg;" // Clear any foreground color
+#define XCODE_COLORS_RESET_BG  XCODE_COLORS_ESCAPE @"bg;" // Clear any background color
+#define XCODE_COLORS_RESET     XCODE_COLORS_ESCAPE @";"   // Clear any foreground or background color
+#define LogRequestBlue(frmt, ...) NSLog((XCODE_COLORS_ESCAPE @"fg0,0,255;" frmt XCODE_COLORS_RESET), ##__VA_ARGS__)
+#define LogResponseGreen(frmt, ...) NSLog((XCODE_COLORS_ESCAPE @"fg0,255,0;" frmt XCODE_COLORS_RESET), ##__VA_ARGS__)
+#define LogResponseRed(frmt, ...) NSLog((XCODE_COLORS_ESCAPE @"fg255,0,0;" frmt XCODE_COLORS_RESET), ##__VA_ARGS__)
+#define LogResponseFuchsia(frmt, ...) NSLog((XCODE_COLORS_ESCAPE @"fg255,0,255;" frmt XCODE_COLORS_RESET), ##__VA_ARGS__)
+#define LogYellow(frmt, ...) NSLog((XCODE_COLORS_ESCAPE @"fg255,158,45;" frmt XCODE_COLORS_RESET), ##__VA_ARGS__)
 
 #ifdef DEBUG // 处于开发阶段
 #define HNBLog(...) NSLog(__VA_ARGS__)
@@ -26,6 +39,7 @@
 #endif
 
 #define ApplicationDelegate ((AppDelegate*)[UIApplication sharedApplication].delegate)
+#define IPHONE_WIDTH ([UIScreen mainScreen].bounds.size.width)
 
 //#define ApplicationDelegate ((AppDelegate*)[UIApplication sharedApplication].delegate)
 

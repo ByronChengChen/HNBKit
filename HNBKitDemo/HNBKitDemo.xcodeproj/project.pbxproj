@@ -46,6 +46,11 @@
 		44C364401F1F50CA00B6AAB5 /* HNBEmitterAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C3643F1F1F50CA00B6AAB5 /* HNBEmitterAnimationView.m */; };
 		44FFB5281F2048C60074695D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FFB5261F2048C60074695D /* AVFoundation.framework */; };
 		44FFB5291F2048C60074695D /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FFB5271F2048C60074695D /* AVKit.framework */; };
+		6E1E0F761F45B427008000FA /* HeadCircleChangeScaleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1E0F741F45B427008000FA /* HeadCircleChangeScaleController.m */; };
+		6E1E0F771F45B427008000FA /* HeadCircleChangeScaleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E1E0F751F45B427008000FA /* HeadCircleChangeScaleController.xib */; };
+		6E1E0F7E1F45BCF5008000FA /* RZHellowCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1E0F7D1F45BCF5008000FA /* RZHellowCircleView.m */; };
+		6E1E0F811F45BEC3008000FA /* UILabel+HNB.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1E0F801F45BEC3008000FA /* UILabel+HNB.m */; };
+		6E3121BF1F45E06A00EF18A2 /* HNBBaseTableViewController+HeadCircleChangeScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3121BE1F45E06A00EF18A2 /* HNBBaseTableViewController+HeadCircleChangeScale.m */; };
 		6E7673961F42A6EF003DA08E /* RouteConfigBtnActionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7673941F42A6EF003DA08E /* RouteConfigBtnActionController.m */; };
 		6E7673971F42A6EF003DA08E /* RouteConfigBtnActionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E7673951F42A6EF003DA08E /* RouteConfigBtnActionController.xib */; };
 		9CA99D9008B05EAB7024BC2F /* libPods-HNBKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B769779025D1FA72CF42B24B /* libPods-HNBKitDemo.a */; };
@@ -126,6 +131,15 @@
 		44C3643F1F1F50CA00B6AAB5 /* HNBEmitterAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNBEmitterAnimationView.m; sourceTree = "<group>"; };
 		44FFB5261F2048C60074695D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		44FFB5271F2048C60074695D /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		6E1E0F731F45B427008000FA /* HeadCircleChangeScaleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadCircleChangeScaleController.h; sourceTree = "<group>"; };
+		6E1E0F741F45B427008000FA /* HeadCircleChangeScaleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadCircleChangeScaleController.m; sourceTree = "<group>"; };
+		6E1E0F751F45B427008000FA /* HeadCircleChangeScaleController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeadCircleChangeScaleController.xib; sourceTree = "<group>"; };
+		6E1E0F7C1F45BCF5008000FA /* RZHellowCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZHellowCircleView.h; sourceTree = "<group>"; };
+		6E1E0F7D1F45BCF5008000FA /* RZHellowCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZHellowCircleView.m; sourceTree = "<group>"; };
+		6E1E0F7F1F45BEC3008000FA /* UILabel+HNB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+HNB.h"; sourceTree = "<group>"; };
+		6E1E0F801F45BEC3008000FA /* UILabel+HNB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+HNB.m"; sourceTree = "<group>"; };
+		6E3121BD1F45E06A00EF18A2 /* HNBBaseTableViewController+HeadCircleChangeScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HNBBaseTableViewController+HeadCircleChangeScale.h"; sourceTree = "<group>"; };
+		6E3121BE1F45E06A00EF18A2 /* HNBBaseTableViewController+HeadCircleChangeScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HNBBaseTableViewController+HeadCircleChangeScale.m"; sourceTree = "<group>"; };
 		6E7673931F42A6EF003DA08E /* RouteConfigBtnActionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteConfigBtnActionController.h; sourceTree = "<group>"; };
 		6E7673941F42A6EF003DA08E /* RouteConfigBtnActionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteConfigBtnActionController.m; sourceTree = "<group>"; };
 		6E7673951F42A6EF003DA08E /* RouteConfigBtnActionController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RouteConfigBtnActionController.xib; sourceTree = "<group>"; };
@@ -213,6 +227,7 @@
 		4458D6DC1F31616300446333 /* HNBKit */ = {
 			isa = PBXGroup;
 			children = (
+				6E1E0F7B1F45BCF5008000FA /* view */,
 				443D93F51F31CB3700654A22 /* HNBBaseTableViewController.h */,
 				443D93F61F31CB3700654A22 /* HNBBaseTableViewController.m */,
 				4458D6DD1F31616300446333 /* category */,
@@ -237,6 +252,10 @@
 				4458D6E51F31616300446333 /* UIResponder+Router.m */,
 				4458D6E61F31616300446333 /* UIView+Extension.h */,
 				4458D6E71F31616300446333 /* UIView+Extension.m */,
+				6E1E0F7F1F45BEC3008000FA /* UILabel+HNB.h */,
+				6E1E0F801F45BEC3008000FA /* UILabel+HNB.m */,
+				6E3121BD1F45E06A00EF18A2 /* HNBBaseTableViewController+HeadCircleChangeScale.h */,
+				6E3121BE1F45E06A00EF18A2 /* HNBBaseTableViewController+HeadCircleChangeScale.m */,
 			);
 			path = category;
 			sourceTree = "<group>";
@@ -334,6 +353,9 @@
 		44B416791F1F44F5004373B3 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				6E1E0F731F45B427008000FA /* HeadCircleChangeScaleController.h */,
+				6E1E0F741F45B427008000FA /* HeadCircleChangeScaleController.m */,
+				6E1E0F751F45B427008000FA /* HeadCircleChangeScaleController.xib */,
 				442FDFD01F2F1639007A1358 /* TestBEMCheckBoxController.h */,
 				442FDFD11F2F1639007A1358 /* TestBEMCheckBoxController.m */,
 				446276FF1F21F30300680AF8 /* HNBFlowLayoutViewController.h */,
@@ -521,6 +543,15 @@
 			path = BaseController;
 			sourceTree = "<group>";
 		};
+		6E1E0F7B1F45BCF5008000FA /* view */ = {
+			isa = PBXGroup;
+			children = (
+				6E1E0F7C1F45BCF5008000FA /* RZHellowCircleView.h */,
+				6E1E0F7D1F45BCF5008000FA /* RZHellowCircleView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		D354818762489E159746981A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -565,7 +596,7 @@
 				TargetAttributes = {
 					4449B1791F15F72B009C0611 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = E4RHLV9RJ8;
+						DevelopmentTeam = P833W8HAMH;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -595,6 +626,7 @@
 			files = (
 				44C03A821F20A0B90087599B /* introduce_2.mp4 in Resources */,
 				44B416921F1F44F5004373B3 /* Main.storyboard in Resources */,
+				6E1E0F771F45B427008000FA /* HeadCircleChangeScaleController.xib in Resources */,
 				6E7673971F42A6EF003DA08E /* RouteConfigBtnActionController.xib in Resources */,
 				440338D01F207E36001E3C46 /* fireWork.mov in Resources */,
 				4449B18A1F15F72B009C0611 /* Assets.xcassets in Resources */,
@@ -659,6 +691,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				446277011F21F30300680AF8 /* HNBFlowLayoutViewController.m in Sources */,
+				6E1E0F811F45BEC3008000FA /* UILabel+HNB.m in Sources */,
 				442FDFD21F2F1639007A1358 /* TestBEMCheckBoxController.m in Sources */,
 				44C364401F1F50CA00B6AAB5 /* HNBEmitterAnimationView.m in Sources */,
 				442FDFE81F2F34E7007A1358 /* HNBHomeViewController.m in Sources */,
@@ -673,6 +706,7 @@
 				6E7673961F42A6EF003DA08E /* RouteConfigBtnActionController.m in Sources */,
 				44C03A941F20C07A0087599B /* HNBBaseViewController.m in Sources */,
 				44C03AA41F20C1280087599B /* PersonCenterViewController.m in Sources */,
+				6E3121BF1F45E06A00EF18A2 /* HNBBaseTableViewController+HeadCircleChangeScale.m in Sources */,
 				4449B17F1F15F72B009C0611 /* main.m in Sources */,
 				44B416941F1F44F5004373B3 /* ChooseMonthCollectionCell.m in Sources */,
 				44B416A11F1F4574004373B3 /* HNBMediator.m in Sources */,
@@ -680,6 +714,7 @@
 				442FDFE41F2F1C82007A1358 /* UIWindow+HNBSwitchRootConroller.m in Sources */,
 				44C03AA71F20C5480087599B /* HNBNewfeatureViewController.m in Sources */,
 				4458D6ED1F31616300446333 /* UIButton+HNBButton.m in Sources */,
+				6E1E0F7E1F45BCF5008000FA /* RZHellowCircleView.m in Sources */,
 				4458D6F21F31616300446333 /* HNBCollectionViewFlowLayout.m in Sources */,
 				4458D6F11F31616300446333 /* UIView+Extension.m in Sources */,
 				4458D6EE1F31616300446333 /* UIColor+HNBColor.m in Sources */,
@@ -687,6 +722,7 @@
 				44C03A931F20C07A0087599B /* BaseNavigationController.m in Sources */,
 				44B4168F1F1F44F5004373B3 /* AppDelegate.m in Sources */,
 				44C03A9E1F20C10B0087599B /* ChatViewController.m in Sources */,
+				6E1E0F761F45B427008000FA /* HeadCircleChangeScaleController.m in Sources */,
 				443D93F71F31CB3700654A22 /* HNBBaseTableViewController.m in Sources */,
 				440338D31F2080E3001E3C46 /* UIView+HNBAVPlayer.m in Sources */,
 				4417054F1F300D390058E4AF /* TestResponderAndImageExtensionViewController.m in Sources */,
@@ -811,7 +847,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = E4RHLV9RJ8;
+				DEVELOPMENT_TEAM = P833W8HAMH;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HNBKitDemo/HNBKitDemoPrefixHeader.pch;
 				INFOPLIST_FILE = HNBKitDemo/Info.plist;
@@ -827,7 +863,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = E4RHLV9RJ8;
+				DEVELOPMENT_TEAM = P833W8HAMH;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HNBKitDemo/HNBKitDemoPrefixHeader.pch;
 				INFOPLIST_FILE = HNBKitDemo/Info.plist;

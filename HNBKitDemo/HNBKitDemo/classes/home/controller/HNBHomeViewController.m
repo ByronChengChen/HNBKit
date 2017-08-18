@@ -33,7 +33,7 @@ static NSString *const g_hasMoreKey = @"hasMoreKey";
 }
 
 - (NSDictionary*)callApiGetResponse{
-    self.sourceDataCount = 3;
+    self.sourceDataCount = 4;
     if(self.currentPage == 0){
         self.lastSelectedIndex = -1;
     }
@@ -59,6 +59,10 @@ static NSString *const g_hasMoreKey = @"hasMoreKey";
             break;
         case 2:
             model.name = [NSString stringWithFormat:@"%ld: %@",index,@"远程调用的方式实现按钮动态化"];
+            break;
+        case 3:
+            model.name = [NSString stringWithFormat:@"%ld: %@",index,@"头部圆球拉伸效果"];
+            break;
         default:
             break;
     }
@@ -90,6 +94,11 @@ static NSString *const g_hasMoreKey = @"hasMoreKey";
             break;
         case 2:{
             vc = [HNBMediator testRouteConfigBtnVCForTitle:@"按钮动态化"];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 3:{
+            vc = [HNBBaseURLRouter viewControllerForUrl:HNB_TestHeadCircleChangeScale];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
