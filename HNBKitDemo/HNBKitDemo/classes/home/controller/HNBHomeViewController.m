@@ -33,7 +33,7 @@ static NSString *const g_hasMoreKey = @"hasMoreKey";
 }
 
 - (NSDictionary*)callApiGetResponse{
-    self.sourceDataCount = 4;
+    self.sourceDataCount = 5;
     if(self.currentPage == 0){
         self.lastSelectedIndex = -1;
     }
@@ -62,6 +62,9 @@ static NSString *const g_hasMoreKey = @"hasMoreKey";
             break;
         case 3:
             model.name = [NSString stringWithFormat:@"%ld: %@",index,@"头部圆球拉伸效果"];
+            break;
+        case 4:
+            model.name = [NSString stringWithFormat:@"%ld: %@",index,@"hnbkit label"];
             break;
         default:
             break;
@@ -100,6 +103,10 @@ static NSString *const g_hasMoreKey = @"hasMoreKey";
         case 3:{
             vc = [HNBBaseURLRouter viewControllerForUrl:HNB_TestHeadCircleChangeScale];
             [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 4:{
+            [self.navigationController pushViewController:[HNBBaseURLRouter viewControllerForUrl:HNB_TestHNBLabelController] animated:YES];
         }
             break;
             

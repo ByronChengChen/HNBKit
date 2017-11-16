@@ -16,3 +16,4 @@ static NSString * const HNB_home =@"hnb://home";
 static NSString * const HNB_TestResponderAndImageExtension =@"hnb://testresponderandimageextension";
 static NSString * const HNB_TestRouteConfigBtn =@"hnb://test/route/config/btn";
 static NSString * const HNB_TestHeadCircleChangeScale =@"hnb://head/circle/change/scale";
+static NSString * const HNB_TestHNBLabelController =@"hnb://hnb/label";
