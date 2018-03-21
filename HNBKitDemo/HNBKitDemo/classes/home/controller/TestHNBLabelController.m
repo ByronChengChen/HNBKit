@@ -23,12 +23,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSData *testData = [NSData dataWithContentsOfFile:@"/Users/chengkang/Desktop/productList"];
-    NSDictionary *testDict = [NSJSONSerialization JSONObjectWithData:testData options:NSJSONReadingMutableContainers error:nil];
-    NSDictionary *testContentDict = testDict[@"Content"];
-    HNBEdgeInsets *edge = [HNBEdgeInsets mj_objectWithKeyValues:testContentDict];
-    [self.edgeLabel setHNBEdgeInsets:UIEdgeInsetsMake(edge.top, edge.left, edge.bottom, edge.right)];
-//    [self.edgeLabel setHNBEdgeInsets:UIEdgeInsetsMake(0, 0, 0, 0)];
+    [self.edgeLabel setHNBEdgeInsets:UIEdgeInsetsMake(0, 0, 0, 0)];
     // Do any additional setup after loading the view from its nib.
 }
 
