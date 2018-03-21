@@ -17,3 +17,4 @@ static NSString * const HNB_TestResponderAndImageExtension =@"hnb://testresponde
 static NSString * const HNB_TestRouteConfigBtn =@"hnb://test/route/config/btn";
 static NSString * const HNB_TestHeadCircleChangeScale =@"hnb://head/circle/change/scale";
 static NSString * const HNB_TestHNBLabelController =@"hnb://hnb/label";
+static NSString* const HNB_TestHNBCycleScrollView =@"hnb://HNB_TestHNBCycleScrollView";

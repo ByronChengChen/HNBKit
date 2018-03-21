@@ -33,7 +33,7 @@ static NSString *const g_hasMoreKey = @"hasMoreKey";
 }
 
 - (NSDictionary*)callApiGetResponse{
-    self.sourceDataCount = 5;
+    self.sourceDataCount = 6;
     if(self.currentPage == 0){
         self.lastSelectedIndex = -1;
     }
@@ -65,6 +65,9 @@ static NSString *const g_hasMoreKey = @"hasMoreKey";
             break;
         case 4:
             model.name = [NSString stringWithFormat:@"%ld: %@",index,@"hnbkit label"];
+            break;
+        case 5:
+            model.name = [NSString stringWithFormat:@"%ld: %@",index,@"HNB_TestHNBCycleScrollView"];
             break;
         default:
             break;
@@ -109,7 +112,10 @@ static NSString *const g_hasMoreKey = @"hasMoreKey";
             [self.navigationController pushViewController:[HNBBaseURLRouter viewControllerForUrl:HNB_TestHNBLabelController] animated:YES];
         }
             break;
-            
+        case 5:{
+            [self.navigationController pushViewController:[HNBBaseURLRouter viewControllerForUrl:HNB_TestHNBCycleScrollView] animated:YES];
+        }
+            break;
         default:
             break;
     }

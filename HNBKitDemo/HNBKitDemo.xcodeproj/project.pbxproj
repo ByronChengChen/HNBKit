@@ -54,6 +54,7 @@
 		6E7673961F42A6EF003DA08E /* RouteConfigBtnActionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7673941F42A6EF003DA08E /* RouteConfigBtnActionController.m */; };
 		6E7673971F42A6EF003DA08E /* RouteConfigBtnActionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E7673951F42A6EF003DA08E /* RouteConfigBtnActionController.xib */; };
 		6E97BA30206253A2003163E6 /* NSString+HNBService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E97BA2F206253A2003163E6 /* NSString+HNBService.m */; };
+		6E9EA2C0206261AD00984B12 /* TestHNBCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9EA2BF206261AD00984B12 /* TestHNBCycleScrollView.m */; };
 		6EA4F32B1FF1352800CCCB44 /* NSNumber+Computation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4F32A1FF1352500CCCB44 /* NSNumber+Computation.m */; };
 		6EBC1F671FBD76AD00F4B88C /* NSObject+HNBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC1F661FBD76AD00F4B88C /* NSObject+HNBKit.m */; };
 		6EBC1F6B1FBD909F00F4B88C /* TestHNBLabelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC1F691FBD909F00F4B88C /* TestHNBLabelController.m */; };
@@ -150,6 +151,8 @@
 		6E7673951F42A6EF003DA08E /* RouteConfigBtnActionController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RouteConfigBtnActionController.xib; sourceTree = "<group>"; };
 		6E97BA2E206253A2003163E6 /* NSString+HNBService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+HNBService.h"; sourceTree = "<group>"; };
 		6E97BA2F206253A2003163E6 /* NSString+HNBService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+HNBService.m"; sourceTree = "<group>"; };
+		6E9EA2BE206261AD00984B12 /* TestHNBCycleScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestHNBCycleScrollView.h; sourceTree = "<group>"; };
+		6E9EA2BF206261AD00984B12 /* TestHNBCycleScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestHNBCycleScrollView.m; sourceTree = "<group>"; };
 		6EA4F3291FF1352400CCCB44 /* NSNumber+Computation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Computation.h"; sourceTree = "<group>"; };
 		6EA4F32A1FF1352500CCCB44 /* NSNumber+Computation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Computation.m"; sourceTree = "<group>"; };
 		6EBC1F651FBD76AD00F4B88C /* NSObject+HNBKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+HNBKit.h"; sourceTree = "<group>"; };
@@ -373,6 +376,8 @@
 		44B416791F1F44F5004373B3 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				6E9EA2BE206261AD00984B12 /* TestHNBCycleScrollView.h */,
+				6E9EA2BF206261AD00984B12 /* TestHNBCycleScrollView.m */,
 				6E1E0F731F45B427008000FA /* HeadCircleChangeScaleController.h */,
 				6E1E0F741F45B427008000FA /* HeadCircleChangeScaleController.m */,
 				6E1E0F751F45B427008000FA /* HeadCircleChangeScaleController.xib */,
@@ -719,6 +724,7 @@
 				442FDFD21F2F1639007A1358 /* TestBEMCheckBoxController.m in Sources */,
 				44C364401F1F50CA00B6AAB5 /* HNBEmitterAnimationView.m in Sources */,
 				442FDFE81F2F34E7007A1358 /* HNBHomeViewController.m in Sources */,
+				6E9EA2C0206261AD00984B12 /* TestHNBCycleScrollView.m in Sources */,
 				44C03A951F20C07A0087599B /* MainTabBarController.m in Sources */,
 				44C03AA11F20C11B0087599B /* MediaViewController.m in Sources */,
 				442FDFD51F2F17CF007A1358 /* BookCell.m in Sources */,
