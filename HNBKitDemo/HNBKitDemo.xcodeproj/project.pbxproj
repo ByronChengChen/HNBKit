@@ -56,6 +56,7 @@
 		6E97BA30206253A2003163E6 /* NSString+HNBService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E97BA2F206253A2003163E6 /* NSString+HNBService.m */; };
 		6E9EA2C0206261AD00984B12 /* TestHNBCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9EA2BF206261AD00984B12 /* TestHNBCycleScrollView.m */; };
 		6EA4F32B1FF1352800CCCB44 /* NSNumber+Computation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4F32A1FF1352500CCCB44 /* NSNumber+Computation.m */; };
+		6EB227D02062AF30004F0CC0 /* BannerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB227CF2062AF30004F0CC0 /* BannerModel.m */; };
 		6EBC1F671FBD76AD00F4B88C /* NSObject+HNBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC1F661FBD76AD00F4B88C /* NSObject+HNBKit.m */; };
 		6EBC1F6B1FBD909F00F4B88C /* TestHNBLabelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC1F691FBD909F00F4B88C /* TestHNBLabelController.m */; };
 		6EBC1F6C1FBD909F00F4B88C /* TestHNBLabelController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC1F6A1FBD909F00F4B88C /* TestHNBLabelController.xib */; };
@@ -155,6 +156,8 @@
 		6E9EA2BF206261AD00984B12 /* TestHNBCycleScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestHNBCycleScrollView.m; sourceTree = "<group>"; };
 		6EA4F3291FF1352400CCCB44 /* NSNumber+Computation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Computation.h"; sourceTree = "<group>"; };
 		6EA4F32A1FF1352500CCCB44 /* NSNumber+Computation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Computation.m"; sourceTree = "<group>"; };
+		6EB227CE2062AF30004F0CC0 /* BannerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BannerModel.h; sourceTree = "<group>"; };
+		6EB227CF2062AF30004F0CC0 /* BannerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerModel.m; sourceTree = "<group>"; };
 		6EBC1F651FBD76AD00F4B88C /* NSObject+HNBKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+HNBKit.h"; sourceTree = "<group>"; };
 		6EBC1F661FBD76AD00F4B88C /* NSObject+HNBKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HNBKit.m"; sourceTree = "<group>"; };
 		6EBC1F681FBD909F00F4B88C /* TestHNBLabelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestHNBLabelController.h; sourceTree = "<group>"; };
@@ -402,6 +405,8 @@
 		44B4167C1F1F44F5004373B3 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				6EB227CE2062AF30004F0CC0 /* BannerModel.h */,
+				6EB227CF2062AF30004F0CC0 /* BannerModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -738,6 +743,7 @@
 				44C03A941F20C07A0087599B /* HNBBaseViewController.m in Sources */,
 				44C03AA41F20C1280087599B /* PersonCenterViewController.m in Sources */,
 				6E3121BF1F45E06A00EF18A2 /* HNBBaseTableViewController+HeadCircleChangeScale.m in Sources */,
+				6EB227D02062AF30004F0CC0 /* BannerModel.m in Sources */,
 				6EBC1F6B1FBD909F00F4B88C /* TestHNBLabelController.m in Sources */,
 				4449B17F1F15F72B009C0611 /* main.m in Sources */,
 				44B416941F1F44F5004373B3 /* ChooseMonthCollectionCell.m in Sources */,

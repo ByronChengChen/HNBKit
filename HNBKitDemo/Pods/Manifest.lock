@@ -5,6 +5,9 @@ PODS:
   - Masonry (1.0.2)
   - MJExtension (3.0.13)
   - MJRefresh (3.1.12)
+  - SDWebImage (4.2.2):
+    - SDWebImage/Core (= 4.2.2)
+  - SDWebImage/Core (4.2.2)
 
 DEPENDENCIES:
   - BEMCheckBox (= 1.4.0)
@@ -12,6 +15,7 @@ DEPENDENCIES:
   - Masonry (= 1.0.2)
   - MJExtension (= 3.0.13)
   - MJRefresh (= 3.1.12)
+  - SDWebImage (= 4.2.2)
 
 SPEC CHECKSUMS:
   BEMCheckBox: e18e4a148905b290bd03d98b767651c104f4eda3
@@ -19,7 +23,8 @@ SPEC CHECKSUMS:
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
 
-PODFILE CHECKSUM: 1d8337d56bb1eaf233a7f53d0b23015893683f4d
+PODFILE CHECKSUM: 81634dcbfd66370a3b1b964634d472715dfba471
 
 COCOAPODS: 1.2.1

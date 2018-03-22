@@ -5,4 +5,5 @@ target :HNBKitDemo do
     pod 'MJExtension', '3.0.13'
     pod 'BEMCheckBox', '1.4.0'
     pod 'HNBURLRouter', '0.0.4'
+    pod 'SDWebImage', '4.2.2'
 end

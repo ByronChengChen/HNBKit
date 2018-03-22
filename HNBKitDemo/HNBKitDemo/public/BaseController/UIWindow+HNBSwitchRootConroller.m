@@ -23,7 +23,9 @@
     if ([currentVersion isEqualToString:lastVersion]) { // 版本号相同：这次打开和上次打开的是同一个版本
         self.rootViewController = nil;
         MainTabBarController *mainTabBarController = [[MainTabBarController alloc] init];
-        UIViewController *home = [self getNavigationByViewControllerName:@"HNBHomeViewController" title:@"首页" imageName:@"tab_icon_1"];
+//        UIViewController *home = [self getNavigationByViewControllerName:@"HNBHomeViewController" title:@"首页" imageName:@"tab_icon_1"];
+        UIViewController *home = [[BaseNavigationController alloc] initWithRootViewController:[HNBBaseURLRouter viewControllerForUrl:HNB_TestHNBCycleScrollView]];
+        //TODO: chengk 轮播图 2 更改首页
         UIViewController *chat = [self getNavigationByViewControllerName:@"ChatViewController" title:@"聊天" imageName:@"tab_icon_2"];
         UIViewController *media = [self getNavigationByViewControllerName:@"MediaViewController" title:@"娱乐" imageName:@"tab_icon_3"];
         UIViewController *personCenter = [self getNavigationByViewControllerName:@"PersonCenterViewController" title:@"个人中心" imageName:@"tab_icon_4"];
