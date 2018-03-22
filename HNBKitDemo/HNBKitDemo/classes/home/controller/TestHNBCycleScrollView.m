@@ -43,24 +43,6 @@
     return  _bannerModelList;
 }
 
-- (void)startPlayHNBCycleView{
-    if(self.timer)
-        return;
-    self.timer = ({
-        NSTimer *timer;
-        timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(autoPlayAction) userInfo:nil repeats:YES];
-        [[NSRunLoop currentRunLoop] addTimer:timer forMode:NSRunLoopCommonModes];
-        timer;
-    });
-}
-
-- (void)stopPlayHNBCycleView{
-    if(self.timer){
-        [self.timer invalidate];
-        self.timer = nil;
-    }
-}
-
 - (void)loadData{
     //测试数据
     NSData *testData = [NSData dataWithContentsOfFile:@"/Users/chengkang/Desktop/testHomeInit"];
@@ -112,6 +94,24 @@
         }];
         NSURL *url = [NSURL URLWithString:self.bannerModelList[i].ImageUrl];
         [imageView sd_setImageWithPreviousCachedImageWithURL:url placeholderImage:[UIImage hnb_imageWithColor:[UIColor grayColor]] options:SDWebImageRetryFailed progress:nil completed:nil];
+    }
+}
+
+- (void)startPlayHNBCycleView{
+    if(self.timer)
+        return;
+    self.timer = ({
+        NSTimer *timer;
+        timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(autoPlayAction) userInfo:nil repeats:YES];
+        [[NSRunLoop currentRunLoop] addTimer:timer forMode:NSRunLoopCommonModes];
+        timer;
+    });
+}
+
+- (void)stopPlayHNBCycleView{
+    if(self.timer){
+        [self.timer invalidate];
+        self.timer = nil;
     }
 }
 
